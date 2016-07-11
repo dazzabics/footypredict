@@ -1,0 +1,48 @@
+<!-- views/home.handlebars -->
+{{#if user}}
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Profile Information</h3>
+    </div>
+    <div class="panel-body">
+      <p>Username: {{user.username}}</p>
+      <p>Avatar: <img src="{{user.avatar}}"/></p>
+    </div>
+	<div>
+		<table class="table table-striped table-hover table-condensed" id="location" border='0'>
+		<tr>
+			<th style="display:none;">fixtureid</th>
+			<th>Date</th>
+			 <th>Team 1</th>
+			 <th>Team 2</th>
+			 <th>Team 1 Score</th>
+			 <th>Team 2 Score</th>
+		</tr>
+		{{#each fixtures}}
+		   <tr><td>{{datetime}}</td><td>{{team1}}</td><td>{{team2}}</td><td>{{team1score}}</td><td>{{team2score}}</td><tr>
+		{{/each}}		
+	</table>
+
+	</div>
+  </div>
+  
+  $(document).ready(function(){
+	$('#location').append('<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><tr>');
+  }
+  
+  
+
+{{else}}
+  <div class="jumbotron">
+    <!--<h1>Orchestrate User Authentication</h1>-->
+    <p>Sign in and view your profile!</p>
+    <p>
+      <a href="/signin" class="btn btn-primary btn-lg" role="button">
+        <span class="glyphicon glyphicon-user"></span>
+        Sign in!
+      </a>
+    </p>
+  </div>
+
+{{/if}}

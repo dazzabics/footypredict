@@ -1,0 +1,7 @@
+{"fixtures": 
+	[
+		{"team1":"Portugal","team2":"Wales","datetime":"2016-07-05","fixtureid":"1"}, 
+		{"team1":"Germany","team2":"France","datetime":"2016-07-06","fixtureid":"2"},
+		{"team1":"Wales","team2":"France","datetime":"2016-07-10","fixtureid":"3"}
+	]
+}

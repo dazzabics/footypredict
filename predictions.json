@@ -1,0 +1,11 @@
+{"predictions": 
+	[
+	   {"team1score" : "1","team2score" : "2","predictionid" : "1","fixtureid" : "1","userid" : "darrenbichan"},
+	   {"team1score" : "3","team2score" : "0","predictionid" : "2","fixtureid" : "2","userid" : "darrenbichan"},
+	   {"team1score" : "2","team2score" : "0","predictionid" : "3","fixtureid" : "3","userid" : "darrenbichan"},
+	   {"team1score" : "5","team2score" : "5","predictionid" : "3","fixtureid" : "4","userid" : "darrenbichan"},
+	   {"team1score" : "1","team2score" : "1","predictionid" : "1","fixtureid" : "1","userid" : "gordonsmith"},
+	   {"team1score" : "2","team2score" : "2","predictionid" : "2","fixtureid" : "2","userid" : "gordonsmith"},
+	   {"team1score" : "3","team2score" : "3","predictionid" : "3","fixtureid" : "3","userid" : "gordonsmith"}
+	]   
+}
